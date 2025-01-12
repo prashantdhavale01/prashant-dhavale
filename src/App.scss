@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Fira Code", monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.orange__color {
+  color: #e99287;
+}
+
+.green__color {
+  color: #43d9ad;
+}
+.dark__green__color {
+  color: #18d26e;
+}
+
+.blue__color {
+  color: #4f6cd5;
+}
+
+.dark__blue__color {
+  color: #0e1922;
+}
+
+.lightGray__color {
+  color: #e5e9f0;
+}
+
+.gray__color {
+  color: #607b96;
+}
+
+.gray__secondary__color {
+  color: #718eac;
+}
+
+.container-fluid {
+  @media only screen and (max-width: 768px) {
+    padding-right: 1.2rem !important;
+    padding-left: 1.2rem !important;
+  }
+  
+}

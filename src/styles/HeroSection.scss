@@ -1,0 +1,42 @@
+.hero__section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/banner.png");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-size: 62px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 100vh;
+    padding-top: 3rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    .column {
+      height: 100vh;
+    }
+    .first {
+      flex: 1; /* Grow to fill available space at the top */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .second {
+      flex: 1; /* Grow to fill available space at the bottom */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}

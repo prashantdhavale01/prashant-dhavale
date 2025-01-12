@@ -1,0 +1,20 @@
+.contact__me__section {
+  padding-bottom: 10px;
+  padding-top: 80px;
+  background-image: url("/assets/footer.png");
+  background-repeat: no-repeat;
+  background-position: center top, center bottom;
+
+  .contact__footer {
+    padding-top: 240px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+    h5{
+      font-size: 1.2rem;
+    }
+  }
+}

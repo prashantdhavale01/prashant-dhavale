@@ -1,0 +1,181 @@
+/* Base styles */
+.navbar__section {
+  background-color: #0e1922;
+  border-bottom: 0.3px solid #1e2d3d;
+  position: fixed; /* Fix the navbar at the top of the page */
+  top: 0; /* Align the navbar to the very top of the viewport */
+  left: 0; /* Align the navbar to the left of the viewport */
+  width: 100%; /* Ensure the navbar extends fully across the width of the viewport */
+  z-index: 999; /* Ensure the navbar stays on top of other content */
+  background-color: #0e1922; /* Background color */
+  border-bottom: 0.3px solid #1e2d3d; /* Border styling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-item.active .nav-link {
+  border-bottom: 4px solid green;
+}
+
+.navbar ul {
+  font-size: 16px;
+}
+
+.navbar ul li {
+  a {
+    line-height: 2;
+  }
+  color: #fff;
+  border-right: 1px solid #1e2d3d;
+}
+
+.navbar ul li a {
+  padding: 10px 30px !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 16px;
+}
+
+.navbar-toggler {
+  border: none;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #718eac;
+  margin: 5px 0;
+  transition: all 0.3s;
+  border: none;
+}
+
+.contact__navbar {
+  color: #18d26e !important;
+}
+
+svg {
+  fill: #1e2d3d;
+}
+
+.navbar ul li:first-child {
+  border-left: 1px solid #1e2d3d;
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+  transition: all 0.2s;
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler.collapsed .icon-bar:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+// .lineCross {
+//   position: absolute;
+//   right: 80px;
+//   top: -14px;
+// }
+/* Media queries for responsive adjustments */
+@media (max-width: 1200px) {
+  /* Desktops */
+
+  .navbar ul {
+    font-size: 14px;
+  }
+
+  .navbar ul li a {
+    padding: 14px 18px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Tablets */
+  .navbar ul {
+    font-size: 12px;
+  }
+
+  .navbar ul li a {
+    padding: 6px 18px !important;
+  }
+
+  .navbar-toggler .icon-bar {
+    width: 20px;
+    height: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Landscape phones and down */
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    font-size: 16px;
+  }
+
+  .navbar ul li a {
+    padding: 4px 16px !important;
+  }
+
+  .navbar-toggler .icon-bar {
+    width: 15px;
+    height: 2px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .navbar__section {
+    padding: 16px 0px;
+
+    .navbar .nav-item.active .nav-link {
+      border-bottom: none;
+      border-left: 4px solid green;
+    }
+
+    .navbar ul li {
+      a {
+        line-height: 4;
+      }
+      &:first-child {
+        margin-top: 20px;
+        border-top: 1px solid #1e2d3d;
+      }
+      border: none;
+      border-bottom: 1px solid #1e2d3d;
+    }
+    .line {
+      position: absolute;
+      right: 70px;
+      top: -14px;
+    }
+  }
+}
+
+.logo__menu {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #1e2d3d;
+  width: 103%;
+}
+
+.body-no-scroll {
+  overflow: hidden; /* Prevent scrolling on the body */
+  height: 100vh; /* Optional: Limit the body height to the viewport height */
+}

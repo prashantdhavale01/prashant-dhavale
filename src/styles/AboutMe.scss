@@ -1,0 +1,16 @@
+.about__me {
+  background: #0C1721;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 52px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto;
+    padding-top: 3rem;
+  }
+}

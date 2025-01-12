@@ -1,0 +1,42 @@
+.skills__section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 52px;
+  }
+
+  .card {
+    border-radius: 0.9375rem;
+    border: 1px solid #182533;
+    background: #0d1921;
+    backdrop-filter: blur(4px);
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto;
+    padding-top: 3rem;
+  }
+
+  .skill__tabs {
+    .nav-pills {
+      border-radius: 0.75rem;
+      background: #131e27;
+      padding: 0.5rem;
+
+      .nav-link {
+        color: #718eac !important;
+        font-size: 0.875rem;
+      }
+      .active {
+        border-radius: 0.5rem;
+        background: #18d26e;
+        color: #fff !important;
+        font-weight: bold;
+      }
+    }
+  }
+}
