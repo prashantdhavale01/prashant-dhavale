@@ -19,8 +19,7 @@ const ContactMe = () => {
               Reach Out for Expert Development Solutions!
             </h1>
             <h6 className="dark__green__color mt-4">
-              <a className="dark__green__color" href="mailto:prashantdhavale01@gmail.com"><img src={email} alt="email" className="img-fluid mx-1" />
-              prashantdhavale01@gmail.com</a>
+              <img src={email} alt="email" className="img-fluid mx-1" /> prashantdhavale01@gmail.com
             </h6>
           </div>
           <div className="col-md-12 contact__footer">

@@ -18,7 +18,7 @@ const MobileNavbar = () => {
         <div className="row icon-row">
           <div className="col-4">
             <a
-              href="https://www.linkedin.com/in/prashant01/"
+              href="https://www.linkedin.com/in/prashant01"
               className="nav-link"
               target="_blank"
               rel="noopener noreferrer"

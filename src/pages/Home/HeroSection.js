@@ -16,7 +16,7 @@ const HeroSection = () => {
             </div>
 
             <div className="second">
-            <p className="mt-5 gray__color">// you can also download my resume</p>
+            <p className="mt-5 gray__color">&#47;&#47; you can also download my resume</p>
               <p className="gray__color">
                 <span className="blue__color fw-bold">const</span>{" "}
                 <span className="green__color fw-bold">resume</span> =
@@ -30,8 +30,8 @@ const HeroSection = () => {
                   </Link>
                 </span>
               </p>
-              <p className="gray__color mt-5">// Turning Code Into Creative Solutions</p>
-              <p className="gray__color">// you can see it on my Github page</p>
+              <p className="gray__color mt-5">&#47;&#47; Turning Code Into Creative Solutions</p>
+              <p className="gray__color">&#47;&#47; you can see it on my Github page</p>
               <p className="gray__color">
                 <span className="blue__color fw-bold">const</span>{" "}
                 <span className="green__color fw-bold">githubLink</span> =
