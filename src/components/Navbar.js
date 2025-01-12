@@ -8,7 +8,7 @@ import behance from "../assets/behanceNav.png";
 import MobileNavbar from "./MobileNavbar";
 import line from "../assets/line.png";
 
-const targetHashes = ["#about_me", "#skills", "#publication", "#contact"];
+const targetHashes = ["#about_me", "#skills", "#publication"];
 
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
