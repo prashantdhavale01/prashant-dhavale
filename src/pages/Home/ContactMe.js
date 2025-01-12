@@ -5,7 +5,7 @@ import "../../styles/ContactMe.scss";
 
 const ContactMe = () => {
   return (
-    <section className="contact__me__section">
+    <section className="contact__me__section" id="contact">
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-12 text-center">

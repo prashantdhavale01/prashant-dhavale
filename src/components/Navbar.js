@@ -8,7 +8,7 @@ import behance from "../assets/behanceNav.png";
 import MobileNavbar from "./MobileNavbar";
 import line from "../assets/line.png";
 
-const targetHashes = ["#about_me", "#skills", "#publication"];
+const targetHashes = ["#about_me", "#skills", "#publication", "#contact"];
 
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -54,8 +54,8 @@ const Navbar = () => {
                     src={Icon}
                     alt="Icon"
                     className="img-fluid rounded-circle me-2 object-contain"
-                    width={36}
-                    height={36}
+                    width={28}
+                    height={28}
                   />
                   Prashant-Dhavale
                 </a>
