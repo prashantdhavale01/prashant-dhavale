@@ -54,8 +54,8 @@ const Navbar = () => {
                     src={Icon}
                     alt="Icon"
                     className="img-fluid rounded-circle me-2 object-contain"
-                    width={52}
-                    height={52}
+                    width={36}
+                    height={36}
                   />
                   Prashant-Dhavale
                 </a>
