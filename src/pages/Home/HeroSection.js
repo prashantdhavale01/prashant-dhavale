@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../../styles/HeroSection.scss";
-import resume from "../../assets/Prashant_Dhavale_Resume.docx";
+import resume from "../../assets/PrashantDhavale_9_Years_Experience_Immediate_Joiner.pdf";
 
 const HeroSection = () => {
   return (
